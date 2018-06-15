@@ -1,0 +1,68 @@
+.router {
+    height: 70%;
+}
+
+.App-header {
+    height: 20%;
+}
+
+.App-header {
+    background-color: #000000;
+    padding: 2%;
+    color: white;
+}
+
+#GamePage {
+    height: 100%;
+}
+
+#chatContainer {
+    width: 40%;
+    height: 30%;
+    position: absolute; /* добавили */
+    bottom: 10px;
+    left: 10px;
+    background-color: #180725;
+    flex-direction: row;
+}
+
+#points {
+    color: #61dafb;
+}
+
+#inviteBtn {
+    color: #61dafb;
+    background-color: #180725;
+    font-size: large;
+}
+
+#inviteBtn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#inviteBtn {
+    color: #61dafb;
+    background-color: #180725;
+    font-size: large;
+    border: none;
+    padding: 14px;
+}
+
+#animatedText{
+    font-weight: 900;
+    color: rgba(205, 153, 246, 0.6);
+    text-shadow: 5px 5px 8px rgba(97, 218, 251, 0.1);
+    position: absolute; /* добавили */
+    bottom: 30%;
+    right: 100px;
+    transform: rotate(-40deg);
+
+}
+
+#VideoChat{
+    position: absolute; /* добавили */
+    bottom: 10px;
+    left: 50%;
+    background-color: #cea6f7;
+    flex-direction: row;
+}

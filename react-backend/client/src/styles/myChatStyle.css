@@ -1,0 +1,44 @@
+
+#messages {
+    background-color: #180725;
+    word-break: break-all;
+    height: 75%;
+}
+
+#textMsg {
+    flex-grow: 1;
+    height: 100%;
+    color: coral;
+    background-color: #180725;
+}
+
+div.yourMsg {
+    background-color: #180725;
+    color: coral;
+    border: 1px solid #adaeff;
+}
+
+div.hisMsg {
+    background-color: #180725;
+    color: #61dafb;
+    border: 1px solid #adaeff;
+}
+
+#newMsgForm {
+    position: absolute; /* добавили */
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#msgBtn {
+    color: #61dafb;
+    background-color: #180725;
+}
+
+a {
+    color: #61dafb;
+}
+
